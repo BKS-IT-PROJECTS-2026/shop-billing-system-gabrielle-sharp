@@ -11,7 +11,8 @@ while True:
 
     if item_price == 0:
         break
-        
+    
+    total += item_price     
 
     if item_price < 0:
        print("Input cannot be negative. Try again.")
